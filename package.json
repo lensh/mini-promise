@@ -1,0 +1,20 @@
+{
+  "name": "mini-promise",
+  "version": "1.0.0",
+  "description": "Mini version promise based on promise a + specification supports asynchronous chain call.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "npx babel-node ./src/index.js"
+  },
+  "author": "lensh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "colors": "^1.4.0"
+  }
+}
